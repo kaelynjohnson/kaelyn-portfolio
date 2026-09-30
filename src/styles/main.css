@@ -1,0 +1,66 @@
+/* main.css - global styles for the portfolio site */
+
+/* Reset default spacing and set a base font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  line-height: 1.6;
+}
+
+/* Page frame: keeps the footer at the bottom even on short pages */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Navbar: logo on the left, links on the right */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 2rem;
+  background-color: #111827;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+  display: block;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.nav-links a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Highlight the link for the page you are on */
+.nav-links a.active {
+  color: #60a5fa;
+}
+
+/* Footer: centered text on a dark bar */
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111827;
+  color: #ffffff;
+}
