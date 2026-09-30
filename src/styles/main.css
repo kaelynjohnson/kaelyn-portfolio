@@ -109,3 +109,35 @@ body {
 .button:hover {
   background-color: #1d4ed8;
 }
+
+/* About page: photo on the left, text on the right */
+.about {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about-text h2 {
+  margin-bottom: 0.5rem;
+}
+
+.about-text p {
+  margin-bottom: 1.5rem;
+}
